@@ -1,0 +1,177 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 25, 2020, 8:58:17 PM
+    Author     : doree
+*/
+
+#mainBackground {
+    position:absolute;
+    top:0px;
+    left: 2.5%;
+    background-color:#d9ffed;
+    height: 100%;
+    width: 95%;
+    margin:0;
+    overflow: auto;
+}
+
+h2 {
+    margin:0;
+    background-color: #00664b;
+    text-align: center;
+    font-family: fantasy;
+    padding:35px;
+    color:#daf0eb;
+}
+
+ul.header{
+    list-style-type: none;
+    margin : 0;
+    padding : 0;
+    overflow : hidden;
+    width: 100%;
+    box-sizing: border-box;
+    background-image: url("img/headerbackground.jpg");
+    background-size: 95%;
+}
+
+ul.header li{
+    float: left;
+    display: block;
+    box-sizing: border-box;
+    width: 25%;
+    background-color: rgba(255,255,255,0.2);
+    
+}
+
+ul.header li a{
+    display: block;
+    color: #daf0eb;
+    font-family: sans-serif;
+    padding: 10px;
+}
+
+ul.header li:hover{
+    background-color: rgba(255,255,255,0);
+}
+
+ul.header li.active{
+   background-color: rgba(255,255,255,0);
+}
+
+ul.header li a:link{
+    color: #daf0eb;
+}
+ul.header li a:visited{
+
+}
+ul.header li a:active{
+    text-shadow: 1px 1px 2px grey;
+}
+
+h3{
+    text-align: center;
+}
+
+.experiences{
+    margin-left: 10%;
+    border-left-style: solid;
+    border-left-color: gray;
+    border-left-width: 15px;
+}
+.experiences .experience_container{
+    width: 80%;
+    margin-left: 6%;
+    border: 2px outset darkseagreen;
+    padding: 8px;
+    margin-top: 2vw;
+}
+.experiences img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
+.experiences img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.experience .full_screen_img{
+    width: 100%;
+}
+.footer{
+    margin-top: 30px;
+    background-color: #B0D8C5;
+    height: 12vw;
+}
+.footer p{
+    padding: 50px;
+}
+
+
+
+
+address{
+    margin-left: 25%;
+}
+
+h4{
+    margin: 5px 50px;
+}
+h5{
+    margin: 5px 50px;
+}
+div.fixnavbar{
+    position: fixed;
+    top: 150px;
+    right: 3%;
+    border: 300px;
+    border: 5px solid #006600;
+}
+
+div.fixnavbar ul{
+    text-align: left;
+    list-style-type: none;
+    padding-right: 35px;
+}
+
+div#myClasses table{
+    border: 5px double darkolivegreen;
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+    table-layout: fixed;
+}
+
+div#myClasses tr,th,td{
+    border: 2px dashed darkolivegreen;
+    padding: 5px;
+    width: 16.67%;
+}
+
+td.colorMath{
+    background-color: #73c2fb;
+}
+
+td.colorPhysics{
+    background-color: #fca3b4;
+}
+
+td.colorCS{
+    background-color: #f8e473;
+}
+
+address{
+    font-size: 25px;
+}
+
+p{
+    font-size: 18px;
+}
+
+#introduction {
+    padding: 0px 50px;
+}
